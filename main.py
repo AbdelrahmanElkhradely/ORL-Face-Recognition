@@ -1,5 +1,6 @@
 import Load_DataSet
 import SplitDataSet
+import PCA
 import numpy as np
 
 if __name__ == '__main__':
@@ -9,5 +10,7 @@ if __name__ == '__main__':
     test_Labelmatrix = np.asarray(test_Labelmatrix, dtype="int32")
     train_Datamatrix = np.asarray(train_Datamatrix, dtype="int32")
     train_Labelmatrix = np.asarray(train_Labelmatrix, dtype="int32")
-    
+    PCA.PCA(test_Datamatrix, test_Labelmatrix, train_Datamatrix, train_Labelmatrix)
+
+
 

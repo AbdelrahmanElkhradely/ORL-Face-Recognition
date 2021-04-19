@@ -27,6 +27,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="settings.editor.selected.configurable" value="preferences.toDoOptions" />
   </component>
   <component name="RunManager" selected="Python.main">
     <configuration name="Load_DataSet" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
@@ -87,7 +88,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1618803230728</updated>
-      <workItem from="1618803231805" duration="5960000" />
+      <workItem from="1618803231805" duration="10354000" />
     </task>
     <servers />
   </component>
@@ -95,22 +96,22 @@
     <option name="version" value="3" />
   </component>
   <component name="WindowStateProjectService">
-    <state width="1493" height="188" key="GridCell.Tab.0.bottom" timestamp="1618808744138">
+    <state width="1493" height="2" key="GridCell.Tab.0.bottom" timestamp="1618814453322">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="188" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1618808744138" />
-    <state width="1493" height="188" key="GridCell.Tab.0.center" timestamp="1618808744137">
+    <state width="1493" height="2" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1618814453322" />
+    <state width="1493" height="2" key="GridCell.Tab.0.center" timestamp="1618814453322">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="188" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1618808744137" />
-    <state width="1493" height="188" key="GridCell.Tab.0.left" timestamp="1618808744137">
+    <state width="1493" height="2" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1618814453322" />
+    <state width="1493" height="2" key="GridCell.Tab.0.left" timestamp="1618814453322">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="188" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1618808744137" />
-    <state width="1493" height="188" key="GridCell.Tab.0.right" timestamp="1618808744137">
+    <state width="1493" height="2" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1618814453322" />
+    <state width="1493" height="2" key="GridCell.Tab.0.right" timestamp="1618814453322">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="188" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1618808744137" />
+    <state width="1493" height="2" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1618814453322" />
     <state width="1493" height="2" key="GridCell.Tab.1.bottom" timestamp="1618807326955">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
@@ -127,9 +128,13 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state width="1493" height="2" key="GridCell.Tab.1.right/0.0.1536.824@0.0.1536.824" timestamp="1618807326955" />
+    <state x="277" y="57" key="SettingsEditor" timestamp="1618814655359">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="277" y="57" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1618814655359" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/ORL_Face_Recognition$main.coverage" NAME="main Coverage Results" MODIFIED="1618808744131" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/ORL_Face_Recognition$main.coverage" NAME="main Coverage Results" MODIFIED="1618814453314" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/ORL_Face_Recognition$Load_DataSet.coverage" NAME="Load_DataSet Coverage Results" MODIFIED="1618807326942" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
 </project>
