@@ -1,4 +1,6 @@
 import numpy as np
+from sklearn.metrics import accuracy_score
+from sklearn.neighbors import KNeighborsClassifier
 
 
 def PCA (test_Datamatrix, test_Labelmatrix, train_Datamatrix, train_Labelmatrix):
@@ -12,7 +14,7 @@ def PCA (test_Datamatrix, test_Labelmatrix, train_Datamatrix, train_Labelmatrix)
     eigenVectors_sorted = eigenVectors[:, indices]
     r_values = [0.8, 0.85, 0.9, 0.95]
     for r in r_values:
-        for i in range(r, 10304):
+        for i in range(0, 10304):
             B = float(sum(eigenValues_sorted))
             T = float(sum(eigenValues_sorted[:i]))
             if (T / B >= r):
@@ -24,4 +26,5 @@ def PCA (test_Datamatrix, test_Labelmatrix, train_Datamatrix, train_Labelmatrix)
         print("R =" + str(r))
         print("----------------------")
         # 3ayz 23ml el KNN classifier
+       
         print("*****************************************************************************")
