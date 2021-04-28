@@ -1,6 +1,9 @@
 
 import numpy as np
 
+from KNN import KNNClassifier
+
+
 def LDA(test_Datamatrix, test_Labelmatrix, train_Datamatrix, train_Labelmatrix):
     LDA_Matrix = []
     for i in range(40):
@@ -34,4 +37,5 @@ def LDA(test_Datamatrix, test_Labelmatrix, train_Datamatrix, train_Labelmatrix):
     LDA_Test = np.dot(test_Datamatrix, eigenVectors_sorted)
     print("----------------------")
     # 3ayz 23ml el KNN classifier
+    KNNClassifier(LDA_Train, train_Labelmatrix, LDA_Test, test_Labelmatrix)
     print("*****************************************************************************")
