@@ -8,7 +8,7 @@ np.set_printoptions(threshold=sys.maxsize)
 from KNN import KNNClassifier
 
 if __name__ == '__main__':
-    
+
     images,labels=Load_DataSet.get_dataset()
     test_Datamatrix, test_Labelmatrix, train_Datamatrix, train_Labelmatrix= SplitDataSet.split(images,labels)
     test_Datamatrix = np.asarray(test_Datamatrix, dtype="int32")
