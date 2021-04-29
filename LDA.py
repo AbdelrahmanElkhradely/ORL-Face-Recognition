@@ -9,6 +9,8 @@ def LDA(test_Datamatrix, test_Labelmatrix, train_Datamatrix, train_Labelmatrix):
     for i in range(40):
         LDA_Matrix.append([])
     j = -1
+    # edit hena
+    print(len(train_Datamatrix))
     for i in range(200):
         if (i % 5 == 0):
             j = j + 1
@@ -37,5 +39,15 @@ def LDA(test_Datamatrix, test_Labelmatrix, train_Datamatrix, train_Labelmatrix):
     LDA_Test = np.dot(test_Datamatrix, eigenVectors_sorted)
     print("----------------------")
     # 3ayz 23ml el KNN classifier
-    KNNClassifier(LDA_Train, train_Labelmatrix, LDA_Test, test_Labelmatrix)
+    LDA_Train = np.asarray(LDA_Train, dtype="int32")
+    LDA_Test = np.asarray(LDA_Test, dtype="int32")
+    print("###############################")
+    print(len(LDA_Train))
+    print(len(LDA_Train[0]))
+    print(len(LDA_Test))
+    print(len(LDA_Test[0]))
+    print("###############################")
+
+
+    KNNClassifier(LDA_Train.T, train_Labelmatrix, LDA_Test.T, test_Labelmatrix)
     print("*****************************************************************************")

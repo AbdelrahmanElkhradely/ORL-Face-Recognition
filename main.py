@@ -15,10 +15,10 @@ if __name__ == '__main__':
     test_Labelmatrix = np.asarray(test_Labelmatrix, dtype="int32")
     train_Datamatrix = np.asarray(train_Datamatrix, dtype="int32")
     train_Labelmatrix = np.asarray(train_Labelmatrix, dtype="int32")
-    PCA.PCA(test_Datamatrix, test_Labelmatrix, train_Datamatrix, train_Labelmatrix)
+    # PCA.PCA(test_Datamatrix, test_Labelmatrix, train_Datamatrix, train_Labelmatrix)
     # print("$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$")
-    # LDA.LDA(test_Datamatrix, test_Labelmatrix, train_Datamatrix, train_Labelmatrix)
-    # KNNClassifier(train_Datamatrix, train_Labelmatrix, test_Datamatrix,test_Labelmatrix)
+    LDA.LDA(test_Datamatrix, test_Labelmatrix, train_Datamatrix, train_Labelmatrix)
+    # KNNClassifier(train_Datamatrix.T, train_Labelmatrix, test_Datamatrix.T,test_Labelmatrix)
 
 
 

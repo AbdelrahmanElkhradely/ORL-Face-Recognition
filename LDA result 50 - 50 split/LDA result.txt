@@ -1,0 +1,834 @@
+C:\Users\AbdelrhmanElkhradely\AppData\Local\Programs\Python\Python39\python.exe C:/Users/AbdelrhmanElkhradely/Documents/GitHub/ORL-Face-Recognition/main.py
+200
+----------------------
+C:\Users\AbdelrhmanElkhradely\AppData\Local\Programs\Python\Python39\lib\site-packages\numpy\core\_asarray.py:83: ComplexWarning: Casting complex values to real discards the imaginary part
+  return array(a, dtype, copy=False, order=order)
+###############################
+200
+10304
+200
+10304
+###############################
+train : 
+10304
+test : 
+10304
+When Neighbour = 1
+accuracy score = 0.895
+0-classified as: 37 actual is: 28     Misclassified
+1-classified as: 21 actual is: 35     Misclassified
+2-classified as: 12 actual is: 12
+3-classified as: 29 actual is: 29
+4-classified as: 18 actual is: 18
+5-classified as: 17 actual is: 17
+6-classified as: 39 actual is: 39
+7-classified as: 18 actual is: 18
+8-classified as: 33 actual is: 33
+9-classified as: 29 actual is: 20     Misclassified
+10-classified as: 1 actual is: 1
+11-classified as: 6 actual is: 6
+12-classified as: 14 actual is: 14
+13-classified as: 16 actual is: 16
+14-classified as: 21 actual is: 21
+15-classified as: 13 actual is: 13
+16-classified as: 34 actual is: 34
+17-classified as: 7 actual is: 7
+18-classified as: 30 actual is: 30
+19-classified as: 8 actual is: 8
+20-classified as: 1 actual is: 16     Misclassified
+21-classified as: 10 actual is: 10
+22-classified as: 9 actual is: 9
+23-classified as: 34 actual is: 34
+24-classified as: 24 actual is: 1     Misclassified
+25-classified as: 9 actual is: 9
+26-classified as: 2 actual is: 2
+27-classified as: 3 actual is: 3
+28-classified as: 33 actual is: 33
+29-classified as: 19 actual is: 19
+30-classified as: 9 actual is: 9
+31-classified as: 27 actual is: 27
+32-classified as: 33 actual is: 33
+33-classified as: 14 actual is: 14
+34-classified as: 30 actual is: 30
+35-classified as: 2 actual is: 2
+36-classified as: 2 actual is: 2
+37-classified as: 40 actual is: 40
+38-classified as: 21 actual is: 23     Misclassified
+39-classified as: 22 actual is: 22
+40-classified as: 8 actual is: 8
+41-classified as: 14 actual is: 14
+42-classified as: 24 actual is: 16     Misclassified
+43-classified as: 11 actual is: 11
+44-classified as: 17 actual is: 17
+45-classified as: 8 actual is: 8
+46-classified as: 22 actual is: 22
+47-classified as: 26 actual is: 26
+48-classified as: 11 actual is: 11
+49-classified as: 25 actual is: 25
+50-classified as: 13 actual is: 13
+51-classified as: 39 actual is: 39
+52-classified as: 4 actual is: 4
+53-classified as: 16 actual is: 16
+54-classified as: 7 actual is: 7
+55-classified as: 12 actual is: 12
+56-classified as: 3 actual is: 3
+57-classified as: 25 actual is: 25
+58-classified as: 12 actual is: 12
+59-classified as: 21 actual is: 23     Misclassified
+60-classified as: 29 actual is: 20     Misclassified
+61-classified as: 36 actual is: 36
+62-classified as: 32 actual is: 32
+63-classified as: 22 actual is: 16     Misclassified
+64-classified as: 19 actual is: 19
+65-classified as: 12 actual is: 12
+66-classified as: 5 actual is: 5
+67-classified as: 33 actual is: 33
+68-classified as: 9 actual is: 9
+69-classified as: 16 actual is: 16
+70-classified as: 39 actual is: 39
+71-classified as: 22 actual is: 22
+72-classified as: 1 actual is: 1
+73-classified as: 13 actual is: 13
+74-classified as: 8 actual is: 8
+75-classified as: 31 actual is: 31
+76-classified as: 3 actual is: 3
+77-classified as: 6 actual is: 6
+78-classified as: 25 actual is: 25
+79-classified as: 35 actual is: 35
+80-classified as: 2 actual is: 1     Misclassified
+81-classified as: 10 actual is: 10
+82-classified as: 28 actual is: 28
+83-classified as: 32 actual is: 32
+84-classified as: 34 actual is: 34
+85-classified as: 15 actual is: 15
+86-classified as: 31 actual is: 31
+87-classified as: 37 actual is: 37
+88-classified as: 19 actual is: 19
+89-classified as: 18 actual is: 18
+90-classified as: 30 actual is: 30
+91-classified as: 4 actual is: 4
+92-classified as: 2 actual is: 2
+93-classified as: 3 actual is: 3
+94-classified as: 26 actual is: 26
+95-classified as: 38 actual is: 38
+96-classified as: 7 actual is: 7
+97-classified as: 8 actual is: 8
+98-classified as: 30 actual is: 30
+99-classified as: 16 actual is: 16
+100-classified as: 31 actual is: 31
+101-classified as: 2 actual is: 2
+102-classified as: 10 actual is: 10
+103-classified as: 15 actual is: 15
+104-classified as: 29 actual is: 23     Misclassified
+105-classified as: 24 actual is: 1     Misclassified
+106-classified as: 23 actual is: 10     Misclassified
+107-classified as: 5 actual is: 21     Misclassified
+108-classified as: 5 actual is: 5
+109-classified as: 5 actual is: 40     Misclassified
+110-classified as: 21 actual is: 21
+111-classified as: 8 actual is: 8
+112-classified as: 36 actual is: 36
+113-classified as: 8 actual is: 8
+114-classified as: 36 actual is: 36
+115-classified as: 15 actual is: 15
+116-classified as: 16 actual is: 16
+117-classified as: 35 actual is: 35
+118-classified as: 37 actual is: 37
+119-classified as: 35 actual is: 35
+120-classified as: 23 actual is: 23
+121-classified as: 19 actual is: 19
+122-classified as: 10 actual is: 10
+123-classified as: 5 actual is: 40     Misclassified
+124-classified as: 11 actual is: 11
+125-classified as: 25 actual is: 25
+126-classified as: 40 actual is: 5     Misclassified
+127-classified as: 4 actual is: 4
+128-classified as: 24 actual is: 24
+129-classified as: 31 actual is: 31
+130-classified as: 38 actual is: 38
+131-classified as: 22 actual is: 22
+132-classified as: 32 actual is: 32
+133-classified as: 25 actual is: 25
+134-classified as: 2 actual is: 2
+135-classified as: 27 actual is: 27
+136-classified as: 3 actual is: 3
+137-classified as: 33 actual is: 33
+138-classified as: 29 actual is: 29
+139-classified as: 37 actual is: 37
+140-classified as: 12 actual is: 12
+141-classified as: 21 actual is: 21
+142-classified as: 36 actual is: 36
+143-classified as: 6 actual is: 23     Misclassified
+144-classified as: 27 actual is: 27
+145-classified as: 35 actual is: 35
+146-classified as: 14 actual is: 14
+147-classified as: 2 actual is: 2
+148-classified as: 24 actual is: 24
+149-classified as: 6 actual is: 6
+150-classified as: 1 actual is: 1
+151-classified as: 4 actual is: 4
+152-classified as: 34 actual is: 34
+153-classified as: 23 actual is: 23
+154-classified as: 10 actual is: 10
+155-classified as: 27 actual is: 27
+156-classified as: 19 actual is: 19
+157-classified as: 17 actual is: 17
+158-classified as: 38 actual is: 38
+159-classified as: 9 actual is: 9
+160-classified as: 7 actual is: 7
+161-classified as: 37 actual is: 28     Misclassified
+162-classified as: 35 actual is: 35
+163-classified as: 24 actual is: 24
+164-classified as: 5 actual is: 5
+165-classified as: 17 actual is: 17
+166-classified as: 7 actual is: 7
+167-classified as: 24 actual is: 24
+168-classified as: 22 actual is: 22
+169-classified as: 3 actual is: 3
+170-classified as: 18 actual is: 18
+171-classified as: 15 actual is: 15
+172-classified as: 20 actual is: 20
+173-classified as: 18 actual is: 18
+174-classified as: 22 actual is: 22
+175-classified as: 39 actual is: 39
+176-classified as: 18 actual is: 18
+177-classified as: 30 actual is: 30
+178-classified as: 15 actual is: 15
+179-classified as: 11 actual is: 11
+180-classified as: 12 actual is: 12
+181-classified as: 22 actual is: 22
+182-classified as: 20 actual is: 20
+183-classified as: 26 actual is: 26
+184-classified as: 15 actual is: 15
+185-classified as: 27 actual is: 27
+186-classified as: 39 actual is: 39
+187-classified as: 29 actual is: 29
+188-classified as: 38 actual is: 38
+189-classified as: 27 actual is: 27
+190-classified as: 20 actual is: 20
+191-classified as: 22 actual is: 22
+192-classified as: 7 actual is: 7
+193-classified as: 17 actual is: 17
+194-classified as: 5 actual is: 4     Misclassified
+195-classified as: 40 actual is: 40
+196-classified as: 4 actual is: 4
+197-classified as: 5 actual is: 5
+198-classified as: 4 actual is: 4
+199-classified as: 37 actual is: 37
+Number of Misclassified is 21
+=========================================
+When Neighbour = 3
+accuracy score = 0.88
+0-classified as: 28 actual is: 28
+1-classified as: 21 actual is: 35     Misclassified
+2-classified as: 12 actual is: 12
+3-classified as: 29 actual is: 29
+4-classified as: 18 actual is: 18
+5-classified as: 17 actual is: 17
+6-classified as: 39 actual is: 39
+7-classified as: 18 actual is: 18
+8-classified as: 33 actual is: 33
+9-classified as: 29 actual is: 20     Misclassified
+10-classified as: 1 actual is: 1
+11-classified as: 6 actual is: 6
+12-classified as: 14 actual is: 14
+13-classified as: 24 actual is: 16     Misclassified
+14-classified as: 21 actual is: 21
+15-classified as: 13 actual is: 13
+16-classified as: 34 actual is: 34
+17-classified as: 7 actual is: 7
+18-classified as: 30 actual is: 30
+19-classified as: 8 actual is: 8
+20-classified as: 1 actual is: 16     Misclassified
+21-classified as: 10 actual is: 10
+22-classified as: 9 actual is: 9
+23-classified as: 34 actual is: 34
+24-classified as: 24 actual is: 1     Misclassified
+25-classified as: 5 actual is: 9     Misclassified
+26-classified as: 2 actual is: 2
+27-classified as: 3 actual is: 3
+28-classified as: 33 actual is: 33
+29-classified as: 19 actual is: 19
+30-classified as: 9 actual is: 9
+31-classified as: 27 actual is: 27
+32-classified as: 33 actual is: 33
+33-classified as: 14 actual is: 14
+34-classified as: 30 actual is: 30
+35-classified as: 2 actual is: 2
+36-classified as: 2 actual is: 2
+37-classified as: 40 actual is: 40
+38-classified as: 21 actual is: 23     Misclassified
+39-classified as: 22 actual is: 22
+40-classified as: 8 actual is: 8
+41-classified as: 14 actual is: 14
+42-classified as: 24 actual is: 16     Misclassified
+43-classified as: 19 actual is: 11     Misclassified
+44-classified as: 17 actual is: 17
+45-classified as: 8 actual is: 8
+46-classified as: 22 actual is: 22
+47-classified as: 26 actual is: 26
+48-classified as: 11 actual is: 11
+49-classified as: 25 actual is: 25
+50-classified as: 13 actual is: 13
+51-classified as: 39 actual is: 39
+52-classified as: 4 actual is: 4
+53-classified as: 16 actual is: 16
+54-classified as: 7 actual is: 7
+55-classified as: 12 actual is: 12
+56-classified as: 3 actual is: 3
+57-classified as: 25 actual is: 25
+58-classified as: 12 actual is: 12
+59-classified as: 21 actual is: 23     Misclassified
+60-classified as: 29 actual is: 20     Misclassified
+61-classified as: 36 actual is: 36
+62-classified as: 32 actual is: 32
+63-classified as: 22 actual is: 16     Misclassified
+64-classified as: 19 actual is: 19
+65-classified as: 12 actual is: 12
+66-classified as: 5 actual is: 5
+67-classified as: 33 actual is: 33
+68-classified as: 9 actual is: 9
+69-classified as: 16 actual is: 16
+70-classified as: 39 actual is: 39
+71-classified as: 22 actual is: 22
+72-classified as: 1 actual is: 1
+73-classified as: 13 actual is: 13
+74-classified as: 8 actual is: 8
+75-classified as: 31 actual is: 31
+76-classified as: 3 actual is: 3
+77-classified as: 6 actual is: 6
+78-classified as: 25 actual is: 25
+79-classified as: 35 actual is: 35
+80-classified as: 2 actual is: 1     Misclassified
+81-classified as: 10 actual is: 10
+82-classified as: 28 actual is: 28
+83-classified as: 32 actual is: 32
+84-classified as: 34 actual is: 34
+85-classified as: 15 actual is: 15
+86-classified as: 31 actual is: 31
+87-classified as: 37 actual is: 37
+88-classified as: 19 actual is: 19
+89-classified as: 18 actual is: 18
+90-classified as: 30 actual is: 30
+91-classified as: 4 actual is: 4
+92-classified as: 2 actual is: 2
+93-classified as: 3 actual is: 3
+94-classified as: 26 actual is: 26
+95-classified as: 38 actual is: 38
+96-classified as: 7 actual is: 7
+97-classified as: 8 actual is: 8
+98-classified as: 30 actual is: 30
+99-classified as: 16 actual is: 16
+100-classified as: 31 actual is: 31
+101-classified as: 2 actual is: 2
+102-classified as: 10 actual is: 10
+103-classified as: 15 actual is: 15
+104-classified as: 6 actual is: 23     Misclassified
+105-classified as: 24 actual is: 1     Misclassified
+106-classified as: 23 actual is: 10     Misclassified
+107-classified as: 21 actual is: 21
+108-classified as: 5 actual is: 5
+109-classified as: 5 actual is: 40     Misclassified
+110-classified as: 21 actual is: 21
+111-classified as: 8 actual is: 8
+112-classified as: 36 actual is: 36
+113-classified as: 8 actual is: 8
+114-classified as: 36 actual is: 36
+115-classified as: 15 actual is: 15
+116-classified as: 16 actual is: 16
+117-classified as: 35 actual is: 35
+118-classified as: 37 actual is: 37
+119-classified as: 35 actual is: 35
+120-classified as: 23 actual is: 23
+121-classified as: 19 actual is: 19
+122-classified as: 10 actual is: 10
+123-classified as: 40 actual is: 40
+124-classified as: 19 actual is: 11     Misclassified
+125-classified as: 25 actual is: 25
+126-classified as: 40 actual is: 5     Misclassified
+127-classified as: 4 actual is: 4
+128-classified as: 24 actual is: 24
+129-classified as: 31 actual is: 31
+130-classified as: 38 actual is: 38
+131-classified as: 22 actual is: 22
+132-classified as: 32 actual is: 32
+133-classified as: 25 actual is: 25
+134-classified as: 2 actual is: 2
+135-classified as: 27 actual is: 27
+136-classified as: 3 actual is: 3
+137-classified as: 33 actual is: 33
+138-classified as: 29 actual is: 29
+139-classified as: 37 actual is: 37
+140-classified as: 12 actual is: 12
+141-classified as: 21 actual is: 21
+142-classified as: 36 actual is: 36
+143-classified as: 6 actual is: 23     Misclassified
+144-classified as: 27 actual is: 27
+145-classified as: 35 actual is: 35
+146-classified as: 26 actual is: 14     Misclassified
+147-classified as: 2 actual is: 2
+148-classified as: 24 actual is: 24
+149-classified as: 6 actual is: 6
+150-classified as: 22 actual is: 1     Misclassified
+151-classified as: 4 actual is: 4
+152-classified as: 34 actual is: 34
+153-classified as: 23 actual is: 23
+154-classified as: 10 actual is: 10
+155-classified as: 27 actual is: 27
+156-classified as: 19 actual is: 19
+157-classified as: 17 actual is: 17
+158-classified as: 38 actual is: 38
+159-classified as: 9 actual is: 9
+160-classified as: 7 actual is: 7
+161-classified as: 37 actual is: 28     Misclassified
+162-classified as: 35 actual is: 35
+163-classified as: 24 actual is: 24
+164-classified as: 5 actual is: 5
+165-classified as: 17 actual is: 17
+166-classified as: 7 actual is: 7
+167-classified as: 24 actual is: 24
+168-classified as: 22 actual is: 22
+169-classified as: 3 actual is: 3
+170-classified as: 18 actual is: 18
+171-classified as: 15 actual is: 15
+172-classified as: 20 actual is: 20
+173-classified as: 18 actual is: 18
+174-classified as: 22 actual is: 22
+175-classified as: 39 actual is: 39
+176-classified as: 18 actual is: 18
+177-classified as: 30 actual is: 30
+178-classified as: 15 actual is: 15
+179-classified as: 11 actual is: 11
+180-classified as: 12 actual is: 12
+181-classified as: 22 actual is: 22
+182-classified as: 20 actual is: 20
+183-classified as: 26 actual is: 26
+184-classified as: 15 actual is: 15
+185-classified as: 27 actual is: 27
+186-classified as: 39 actual is: 39
+187-classified as: 29 actual is: 29
+188-classified as: 38 actual is: 38
+189-classified as: 27 actual is: 27
+190-classified as: 20 actual is: 20
+191-classified as: 22 actual is: 22
+192-classified as: 7 actual is: 7
+193-classified as: 17 actual is: 17
+194-classified as: 5 actual is: 4     Misclassified
+195-classified as: 40 actual is: 40
+196-classified as: 4 actual is: 4
+197-classified as: 5 actual is: 5
+198-classified as: 4 actual is: 4
+199-classified as: 37 actual is: 37
+Number of Misclassified is 24
+=========================================
+When Neighbour = 5
+accuracy score = 0.805
+0-classified as: 28 actual is: 28
+1-classified as: 40 actual is: 35     Misclassified
+2-classified as: 12 actual is: 12
+3-classified as: 29 actual is: 29
+4-classified as: 18 actual is: 18
+5-classified as: 17 actual is: 17
+6-classified as: 39 actual is: 39
+7-classified as: 18 actual is: 18
+8-classified as: 21 actual is: 33     Misclassified
+9-classified as: 29 actual is: 20     Misclassified
+10-classified as: 1 actual is: 1
+11-classified as: 6 actual is: 6
+12-classified as: 14 actual is: 14
+13-classified as: 24 actual is: 16     Misclassified
+14-classified as: 21 actual is: 21
+15-classified as: 13 actual is: 13
+16-classified as: 34 actual is: 34
+17-classified as: 7 actual is: 7
+18-classified as: 30 actual is: 30
+19-classified as: 8 actual is: 8
+20-classified as: 1 actual is: 16     Misclassified
+21-classified as: 10 actual is: 10
+22-classified as: 9 actual is: 9
+23-classified as: 34 actual is: 34
+24-classified as: 24 actual is: 1     Misclassified
+25-classified as: 5 actual is: 9     Misclassified
+26-classified as: 2 actual is: 2
+27-classified as: 5 actual is: 3     Misclassified
+28-classified as: 33 actual is: 33
+29-classified as: 19 actual is: 19
+30-classified as: 9 actual is: 9
+31-classified as: 27 actual is: 27
+32-classified as: 33 actual is: 33
+33-classified as: 14 actual is: 14
+34-classified as: 30 actual is: 30
+35-classified as: 2 actual is: 2
+36-classified as: 2 actual is: 2
+37-classified as: 40 actual is: 40
+38-classified as: 21 actual is: 23     Misclassified
+39-classified as: 22 actual is: 22
+40-classified as: 8 actual is: 8
+41-classified as: 14 actual is: 14
+42-classified as: 24 actual is: 16     Misclassified
+43-classified as: 19 actual is: 11     Misclassified
+44-classified as: 17 actual is: 17
+45-classified as: 8 actual is: 8
+46-classified as: 15 actual is: 22     Misclassified
+47-classified as: 26 actual is: 26
+48-classified as: 11 actual is: 11
+49-classified as: 25 actual is: 25
+50-classified as: 13 actual is: 13
+51-classified as: 39 actual is: 39
+52-classified as: 4 actual is: 4
+53-classified as: 16 actual is: 16
+54-classified as: 7 actual is: 7
+55-classified as: 12 actual is: 12
+56-classified as: 3 actual is: 3
+57-classified as: 25 actual is: 25
+58-classified as: 12 actual is: 12
+59-classified as: 21 actual is: 23     Misclassified
+60-classified as: 29 actual is: 20     Misclassified
+61-classified as: 36 actual is: 36
+62-classified as: 32 actual is: 32
+63-classified as: 22 actual is: 16     Misclassified
+64-classified as: 19 actual is: 19
+65-classified as: 12 actual is: 12
+66-classified as: 5 actual is: 5
+67-classified as: 33 actual is: 33
+68-classified as: 9 actual is: 9
+69-classified as: 24 actual is: 16     Misclassified
+70-classified as: 39 actual is: 39
+71-classified as: 15 actual is: 22     Misclassified
+72-classified as: 1 actual is: 1
+73-classified as: 13 actual is: 13
+74-classified as: 8 actual is: 8
+75-classified as: 31 actual is: 31
+76-classified as: 3 actual is: 3
+77-classified as: 6 actual is: 6
+78-classified as: 25 actual is: 25
+79-classified as: 35 actual is: 35
+80-classified as: 2 actual is: 1     Misclassified
+81-classified as: 10 actual is: 10
+82-classified as: 28 actual is: 28
+83-classified as: 32 actual is: 32
+84-classified as: 34 actual is: 34
+85-classified as: 15 actual is: 15
+86-classified as: 31 actual is: 31
+87-classified as: 37 actual is: 37
+88-classified as: 19 actual is: 19
+89-classified as: 18 actual is: 18
+90-classified as: 30 actual is: 30
+91-classified as: 4 actual is: 4
+92-classified as: 2 actual is: 2
+93-classified as: 3 actual is: 3
+94-classified as: 26 actual is: 26
+95-classified as: 38 actual is: 38
+96-classified as: 7 actual is: 7
+97-classified as: 8 actual is: 8
+98-classified as: 30 actual is: 30
+99-classified as: 1 actual is: 16     Misclassified
+100-classified as: 21 actual is: 31     Misclassified
+101-classified as: 2 actual is: 2
+102-classified as: 10 actual is: 10
+103-classified as: 15 actual is: 15
+104-classified as: 6 actual is: 23     Misclassified
+105-classified as: 24 actual is: 1     Misclassified
+106-classified as: 23 actual is: 10     Misclassified
+107-classified as: 21 actual is: 21
+108-classified as: 5 actual is: 5
+109-classified as: 5 actual is: 40     Misclassified
+110-classified as: 21 actual is: 21
+111-classified as: 8 actual is: 8
+112-classified as: 36 actual is: 36
+113-classified as: 8 actual is: 8
+114-classified as: 36 actual is: 36
+115-classified as: 2 actual is: 15     Misclassified
+116-classified as: 24 actual is: 16     Misclassified
+117-classified as: 15 actual is: 35     Misclassified
+118-classified as: 37 actual is: 37
+119-classified as: 35 actual is: 35
+120-classified as: 23 actual is: 23
+121-classified as: 19 actual is: 19
+122-classified as: 10 actual is: 10
+123-classified as: 40 actual is: 40
+124-classified as: 11 actual is: 11
+125-classified as: 25 actual is: 25
+126-classified as: 18 actual is: 5     Misclassified
+127-classified as: 4 actual is: 4
+128-classified as: 24 actual is: 24
+129-classified as: 31 actual is: 31
+130-classified as: 38 actual is: 38
+131-classified as: 22 actual is: 22
+132-classified as: 32 actual is: 32
+133-classified as: 25 actual is: 25
+134-classified as: 2 actual is: 2
+135-classified as: 27 actual is: 27
+136-classified as: 3 actual is: 3
+137-classified as: 33 actual is: 33
+138-classified as: 29 actual is: 29
+139-classified as: 37 actual is: 37
+140-classified as: 26 actual is: 12     Misclassified
+141-classified as: 21 actual is: 21
+142-classified as: 36 actual is: 36
+143-classified as: 6 actual is: 23     Misclassified
+144-classified as: 27 actual is: 27
+145-classified as: 35 actual is: 35
+146-classified as: 26 actual is: 14     Misclassified
+147-classified as: 2 actual is: 2
+148-classified as: 24 actual is: 24
+149-classified as: 6 actual is: 6
+150-classified as: 22 actual is: 1     Misclassified
+151-classified as: 4 actual is: 4
+152-classified as: 34 actual is: 34
+153-classified as: 38 actual is: 23     Misclassified
+154-classified as: 38 actual is: 10     Misclassified
+155-classified as: 27 actual is: 27
+156-classified as: 19 actual is: 19
+157-classified as: 17 actual is: 17
+158-classified as: 38 actual is: 38
+159-classified as: 9 actual is: 9
+160-classified as: 7 actual is: 7
+161-classified as: 37 actual is: 28     Misclassified
+162-classified as: 35 actual is: 35
+163-classified as: 24 actual is: 24
+164-classified as: 5 actual is: 5
+165-classified as: 17 actual is: 17
+166-classified as: 7 actual is: 7
+167-classified as: 24 actual is: 24
+168-classified as: 15 actual is: 22     Misclassified
+169-classified as: 3 actual is: 3
+170-classified as: 18 actual is: 18
+171-classified as: 15 actual is: 15
+172-classified as: 20 actual is: 20
+173-classified as: 18 actual is: 18
+174-classified as: 15 actual is: 22     Misclassified
+175-classified as: 39 actual is: 39
+176-classified as: 18 actual is: 18
+177-classified as: 30 actual is: 30
+178-classified as: 15 actual is: 15
+179-classified as: 11 actual is: 11
+180-classified as: 12 actual is: 12
+181-classified as: 22 actual is: 22
+182-classified as: 29 actual is: 20     Misclassified
+183-classified as: 26 actual is: 26
+184-classified as: 15 actual is: 15
+185-classified as: 27 actual is: 27
+186-classified as: 39 actual is: 39
+187-classified as: 29 actual is: 29
+188-classified as: 38 actual is: 38
+189-classified as: 27 actual is: 27
+190-classified as: 20 actual is: 20
+191-classified as: 22 actual is: 22
+192-classified as: 7 actual is: 7
+193-classified as: 17 actual is: 17
+194-classified as: 5 actual is: 4     Misclassified
+195-classified as: 40 actual is: 40
+196-classified as: 4 actual is: 4
+197-classified as: 5 actual is: 5
+198-classified as: 4 actual is: 4
+199-classified as: 37 actual is: 37
+Number of Misclassified is 39
+=========================================
+When Neighbour = 7
+accuracy score = 0.74
+0-classified as: 28 actual is: 28
+1-classified as: 5 actual is: 35     Misclassified
+2-classified as: 12 actual is: 12
+3-classified as: 29 actual is: 29
+4-classified as: 18 actual is: 18
+5-classified as: 17 actual is: 17
+6-classified as: 39 actual is: 39
+7-classified as: 18 actual is: 18
+8-classified as: 21 actual is: 33     Misclassified
+9-classified as: 29 actual is: 20     Misclassified
+10-classified as: 1 actual is: 1
+11-classified as: 6 actual is: 6
+12-classified as: 14 actual is: 14
+13-classified as: 24 actual is: 16     Misclassified
+14-classified as: 21 actual is: 21
+15-classified as: 13 actual is: 13
+16-classified as: 34 actual is: 34
+17-classified as: 7 actual is: 7
+18-classified as: 30 actual is: 30
+19-classified as: 8 actual is: 8
+20-classified as: 1 actual is: 16     Misclassified
+21-classified as: 10 actual is: 10
+22-classified as: 9 actual is: 9
+23-classified as: 34 actual is: 34
+24-classified as: 24 actual is: 1     Misclassified
+25-classified as: 23 actual is: 9     Misclassified
+26-classified as: 2 actual is: 2
+27-classified as: 5 actual is: 3     Misclassified
+28-classified as: 33 actual is: 33
+29-classified as: 19 actual is: 19
+30-classified as: 9 actual is: 9
+31-classified as: 19 actual is: 27     Misclassified
+32-classified as: 33 actual is: 33
+33-classified as: 14 actual is: 14
+34-classified as: 30 actual is: 30
+35-classified as: 2 actual is: 2
+36-classified as: 2 actual is: 2
+37-classified as: 40 actual is: 40
+38-classified as: 21 actual is: 23     Misclassified
+39-classified as: 15 actual is: 22     Misclassified
+40-classified as: 8 actual is: 8
+41-classified as: 14 actual is: 14
+42-classified as: 24 actual is: 16     Misclassified
+43-classified as: 19 actual is: 11     Misclassified
+44-classified as: 17 actual is: 17
+45-classified as: 8 actual is: 8
+46-classified as: 15 actual is: 22     Misclassified
+47-classified as: 26 actual is: 26
+48-classified as: 8 actual is: 11     Misclassified
+49-classified as: 25 actual is: 25
+50-classified as: 13 actual is: 13
+51-classified as: 15 actual is: 39     Misclassified
+52-classified as: 4 actual is: 4
+53-classified as: 24 actual is: 16     Misclassified
+54-classified as: 7 actual is: 7
+55-classified as: 12 actual is: 12
+56-classified as: 3 actual is: 3
+57-classified as: 25 actual is: 25
+58-classified as: 12 actual is: 12
+59-classified as: 21 actual is: 23     Misclassified
+60-classified as: 29 actual is: 20     Misclassified
+61-classified as: 36 actual is: 36
+62-classified as: 32 actual is: 32
+63-classified as: 22 actual is: 16     Misclassified
+64-classified as: 19 actual is: 19
+65-classified as: 12 actual is: 12
+66-classified as: 5 actual is: 5
+67-classified as: 33 actual is: 33
+68-classified as: 9 actual is: 9
+69-classified as: 24 actual is: 16     Misclassified
+70-classified as: 39 actual is: 39
+71-classified as: 15 actual is: 22     Misclassified
+72-classified as: 1 actual is: 1
+73-classified as: 13 actual is: 13
+74-classified as: 8 actual is: 8
+75-classified as: 30 actual is: 31     Misclassified
+76-classified as: 38 actual is: 3     Misclassified
+77-classified as: 6 actual is: 6
+78-classified as: 25 actual is: 25
+79-classified as: 22 actual is: 35     Misclassified
+80-classified as: 2 actual is: 1     Misclassified
+81-classified as: 10 actual is: 10
+82-classified as: 28 actual is: 28
+83-classified as: 32 actual is: 32
+84-classified as: 34 actual is: 34
+85-classified as: 22 actual is: 15     Misclassified
+86-classified as: 31 actual is: 31
+87-classified as: 37 actual is: 37
+88-classified as: 19 actual is: 19
+89-classified as: 18 actual is: 18
+90-classified as: 30 actual is: 30
+91-classified as: 4 actual is: 4
+92-classified as: 2 actual is: 2
+93-classified as: 3 actual is: 3
+94-classified as: 26 actual is: 26
+95-classified as: 38 actual is: 38
+96-classified as: 7 actual is: 7
+97-classified as: 8 actual is: 8
+98-classified as: 30 actual is: 30
+99-classified as: 1 actual is: 16     Misclassified
+100-classified as: 21 actual is: 31     Misclassified
+101-classified as: 2 actual is: 2
+102-classified as: 10 actual is: 10
+103-classified as: 2 actual is: 15     Misclassified
+104-classified as: 6 actual is: 23     Misclassified
+105-classified as: 24 actual is: 1     Misclassified
+106-classified as: 23 actual is: 10     Misclassified
+107-classified as: 21 actual is: 21
+108-classified as: 5 actual is: 5
+109-classified as: 5 actual is: 40     Misclassified
+110-classified as: 21 actual is: 21
+111-classified as: 8 actual is: 8
+112-classified as: 36 actual is: 36
+113-classified as: 8 actual is: 8
+114-classified as: 36 actual is: 36
+115-classified as: 2 actual is: 15     Misclassified
+116-classified as: 24 actual is: 16     Misclassified
+117-classified as: 15 actual is: 35     Misclassified
+118-classified as: 37 actual is: 37
+119-classified as: 5 actual is: 35     Misclassified
+120-classified as: 23 actual is: 23
+121-classified as: 19 actual is: 19
+122-classified as: 6 actual is: 10     Misclassified
+123-classified as: 40 actual is: 40
+124-classified as: 11 actual is: 11
+125-classified as: 25 actual is: 25
+126-classified as: 18 actual is: 5     Misclassified
+127-classified as: 4 actual is: 4
+128-classified as: 24 actual is: 24
+129-classified as: 31 actual is: 31
+130-classified as: 38 actual is: 38
+131-classified as: 22 actual is: 22
+132-classified as: 32 actual is: 32
+133-classified as: 25 actual is: 25
+134-classified as: 2 actual is: 2
+135-classified as: 27 actual is: 27
+136-classified as: 3 actual is: 3
+137-classified as: 33 actual is: 33
+138-classified as: 29 actual is: 29
+139-classified as: 37 actual is: 37
+140-classified as: 18 actual is: 12     Misclassified
+141-classified as: 21 actual is: 21
+142-classified as: 36 actual is: 36
+143-classified as: 6 actual is: 23     Misclassified
+144-classified as: 27 actual is: 27
+145-classified as: 35 actual is: 35
+146-classified as: 26 actual is: 14     Misclassified
+147-classified as: 2 actual is: 2
+148-classified as: 24 actual is: 24
+149-classified as: 6 actual is: 6
+150-classified as: 22 actual is: 1     Misclassified
+151-classified as: 4 actual is: 4
+152-classified as: 34 actual is: 34
+153-classified as: 23 actual is: 23
+154-classified as: 10 actual is: 10
+155-classified as: 27 actual is: 27
+156-classified as: 19 actual is: 19
+157-classified as: 17 actual is: 17
+158-classified as: 38 actual is: 38
+159-classified as: 9 actual is: 9
+160-classified as: 7 actual is: 7
+161-classified as: 37 actual is: 28     Misclassified
+162-classified as: 35 actual is: 35
+163-classified as: 24 actual is: 24
+164-classified as: 5 actual is: 5
+165-classified as: 17 actual is: 17
+166-classified as: 7 actual is: 7
+167-classified as: 24 actual is: 24
+168-classified as: 15 actual is: 22     Misclassified
+169-classified as: 3 actual is: 3
+170-classified as: 18 actual is: 18
+171-classified as: 15 actual is: 15
+172-classified as: 29 actual is: 20     Misclassified
+173-classified as: 18 actual is: 18
+174-classified as: 15 actual is: 22     Misclassified
+175-classified as: 39 actual is: 39
+176-classified as: 18 actual is: 18
+177-classified as: 30 actual is: 30
+178-classified as: 15 actual is: 15
+179-classified as: 11 actual is: 11
+180-classified as: 12 actual is: 12
+181-classified as: 22 actual is: 22
+182-classified as: 29 actual is: 20     Misclassified
+183-classified as: 26 actual is: 26
+184-classified as: 15 actual is: 15
+185-classified as: 27 actual is: 27
+186-classified as: 15 actual is: 39     Misclassified
+187-classified as: 29 actual is: 29
+188-classified as: 38 actual is: 38
+189-classified as: 27 actual is: 27
+190-classified as: 20 actual is: 20
+191-classified as: 15 actual is: 22     Misclassified
+192-classified as: 7 actual is: 7
+193-classified as: 17 actual is: 17
+194-classified as: 13 actual is: 4     Misclassified
+195-classified as: 40 actual is: 40
+196-classified as: 4 actual is: 4
+197-classified as: 5 actual is: 5
+198-classified as: 4 actual is: 4
+199-classified as: 37 actual is: 37
+Number of Misclassified is 52
+=========================================
+*****************************************************************************
+
+Process finished with exit code 0
